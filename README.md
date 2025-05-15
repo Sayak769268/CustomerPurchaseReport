@@ -1,8 +1,7 @@
-# 🛒 Online Retail Customer Segmentation & Behavior Analysis
-
+# Analyzing Customer Purchases for Key Insights
 ## 📌 Project Overview
 
-This project was completed as part of my internship task to analyze real-world customer transaction data. The dataset is sourced from an online retail store and contains transactional and customer-related information. The main goal was to extract business insights, segment customers, estimate customer lifetime value (CLV), and optionally predict future purchase behavior.
+This project was completed as part of my internship, focusing on analyzing real-world customer transaction data from an online retail store. The dataset includes detailed information on purchases, customers, and invoice records. The primary objective was to uncover actionable business insights, segment customers using clustering techniques, estimate Customer Lifetime Value (CLV) through RFM analysis, and explore possibilities for predicting future purchase behavior.
 
 ---
 
