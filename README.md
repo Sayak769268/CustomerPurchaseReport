@@ -15,8 +15,7 @@ This project was completed as part of my internship, focusing on analyzing real-
 
 ## 📊 Task Breakdown
 
-### 1. 🔧 Data CleaningRemoved rows with missing CustomerID values
-
+### 1. 🔧 Data Cleaning
 - Removed rows with missing CustomerID values
 - Removed duplicate records
 - Filtered out rows where Quantity ≤ 0 or UnitPrice ≤ 0 (invalid transactions)
