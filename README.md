@@ -15,25 +15,27 @@ This project was completed as part of my internship, focusing on analyzing real-
 
 ## 📊 Task Breakdown
 
-### 1. 🔧 Data Cleaning
-- Removed missing CustomerIDs and duplicates
-- Filtered invalid rows (Quantity ≤ 0, Price ≤ 0)
-- Converted `InvoiceDate` to datetime and extracted month, day, year, hour
+### 1. 🔧 Data CleaningRemoved rows with missing CustomerID values
+
+- Removed rows with missing CustomerID values
+- Removed duplicate records
+- Filtered out rows where Quantity ≤ 0 or UnitPrice ≤ 0 (invalid transactions)
+- Converted InvoiceDate to datetime format
+- Extracted new columns from `InvoiceDate`:`Month`,`Day`,`Year`,`Hour`
+  
 
 ### 2. 🔄 Data Transformation
 - Added new features: `TotalPrice`, `InvoiceMonth`, `Weekday`, `Hour`
-- Aggregated customer-level data for analysis
+- Aggregated customer-level data for analysis(e.g., total spend, purchase frequency, repeat customer count, etc.)
 
 ### 3. 📈 Exploratory Data Analysis (EDA)
 - Summary statistics of customer behavior
 - Most popular products by frequency & revenue
 - Monthly sales trends and peak sales hours
-- Pie chart of country-wise customers (if applicable)
-- Correlation matrix for numeric fields
 
 ### 4. 🧠 Customer Segmentation (K-Means)
 - Applied RFM (Recency, Frequency, Monetary) analysis
-- Performed K-Means clustering to identify 4 distinct customer groups
+- Performed K-Means clustering to identify 3 distinct customer groups
 - Identified top-value and at-risk customer segments
 
 ### 5. 📦 Customer Lifetime Value (CLV)
@@ -53,7 +55,6 @@ This project was completed as part of my internship, focusing on analyzing real-
 - Histograms of customer spending
 - Bar charts for most popular products
 - Line plots showing sales trends over time
-- Pie charts for customer geography
 - Scatter plots for customer clusters
 - Confusion matrix for model performance
 
